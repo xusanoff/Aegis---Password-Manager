@@ -69,6 +69,14 @@ body {
     opacity: 1;
   }
 }
+@keyframes drawerIn {
+  from {
+    transform: translateX(-100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
 @keyframes modalIn {
   from {
     opacity: 0;
